@@ -1,0 +1,51 @@
+# Python Virtual Environment
+.venv/
+venv/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables
+.env
+
+# Database Files (jika pakai SQLite)
+*.db
+*.db-journal
+
+# Logs
+*.log
+
+# Dependency directories
+*.egg-info/
+dist/
+build/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+
+# MacOS
+.DS_Store
+
+# Uvicorn / FastAPI runtime
+*.pid
+
+# Model files (opsional, kalau besar dan disimpan terpisah)
+models/*
+
+# Assets (opsional, kalau besar dan disimpan terpisah)
+assets/*
+
+# Upload & examples files
+uploads/*
+output_example/*
+
+# YOLOv5 files
+yolov5/*
+
+# Sort files
+sort/*
